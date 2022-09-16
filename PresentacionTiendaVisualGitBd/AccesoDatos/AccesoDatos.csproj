@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ConectarBd">
-      <HintPath>..\..\..\..\OneDrive\Documentos\Semestre 3\Semestre 4\Topicos Avanzados de Programacion\ConectarBd\ConectarBd\bin\Debug\ConectarBd.dll</HintPath>
+      <HintPath>..\..\..\..\..\OneDrive\Documentos\Semestre 3\Semestre 4\Topicos Avanzados de Programacion\ConectarBd\ConectarBd\bin\Debug\ConectarBd.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatosTienda.cs" />
+    <Compile Include="IEntidadTienda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

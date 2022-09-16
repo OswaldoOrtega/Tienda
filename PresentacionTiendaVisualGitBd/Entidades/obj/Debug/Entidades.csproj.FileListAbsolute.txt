@@ -1,0 +1,6 @@
+C:\Users\lapas\source\repos\TiendaGitVIsualBd\PresentacionTiendaVisualGitBd\Entidades\bin\Debug\Entidades.dll
+C:\Users\lapas\source\repos\TiendaGitVIsualBd\PresentacionTiendaVisualGitBd\Entidades\bin\Debug\Entidades.pdb
+C:\Users\lapas\source\repos\TiendaGitVIsualBd\PresentacionTiendaVisualGitBd\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\lapas\source\repos\TiendaGitVIsualBd\PresentacionTiendaVisualGitBd\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\lapas\source\repos\TiendaGitVIsualBd\PresentacionTiendaVisualGitBd\Entidades\obj\Debug\Entidades.dll
+C:\Users\lapas\source\repos\TiendaGitVIsualBd\PresentacionTiendaVisualGitBd\Entidades\obj\Debug\Entidades.pdb
