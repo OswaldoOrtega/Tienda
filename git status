@@ -1,0 +1,47 @@
+[33mcommit 64c82db9a021e79ebc6bad4577a0b788f0e0c8a4[m[33m ([m[1;36mHEAD -> [m[1;32maltas[m[33m)[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 17:15:49 2022 -0500
+
+    Se comprobo que el formulario de altas ya sirve y da de alta los productos que se le ingresan
+
+[33mcommit af34a37c8f0701b48939d404d06168e2ecf8cfd8[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 17:10:29 2022 -0500
+
+    Se realizo el formulario para que diera de alta funcional
+
+[33mcommit cbf33a030a5fa645a805c69893e3443064c5fc4e[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 16:55:12 2022 -0500
+
+    Se creo el cuerpo del formulario para dar de alta
+
+[33mcommit 67f7fa801b704fae042d3ed653c36d3d6966a2eb[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 16:43:26 2022 -0500
+
+    Se hizo el manejador para jugar los productos
+
+[33mcommit 7c8ac29885f0c8e7041aa345d0d49b17eb629ad8[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 16:31:47 2022 -0500
+
+    Se creo la capa acceso a datos y se puso el metodo de insertar/dar de alta
+
+[33mcommit bc9c72d9a0f1707212fcc326fb5a99652fd70966[m[33m ([m[1;31morigin/altas[m[33m)[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 14:06:04 2022 -0500
+
+    Se crearon los procedures para dar de alta, baja y modificar
+
+[33mcommit afced2d21e7238d2c45c6253227b724f9fe16d7c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 11:43:28 2022 -0500
+
+    El Esqueleto del visual y la base de datos
+
+[33mcommit 662243bf78ada86aaa98d954e61d634383ffcf7d[m
+Author: Oswaldo Rafael Ortega Garcia <oswaldoortega680@gmail.com>
+Date:   Fri Sep 16 11:40:20 2022 -0500
+
+    first commit
