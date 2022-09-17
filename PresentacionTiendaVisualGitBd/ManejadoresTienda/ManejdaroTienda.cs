@@ -16,7 +16,13 @@ namespace ManejadoresTienda
         Grafico g = new Grafico();
         public void Borrar(dynamic Entidad)
         {
-            throw new NotImplementedException();
+            DialogResult rs = MessageBox.Show(
+                string.Format("¿Está seguro de borrar {0}",
+                Entidad.Nombre),
+                "!Atención", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+            if (rs == DialogResult.Yes)
+                at.Borrar(Entidad);
         }
 
         public void Guardar(dynamic Entidad)
