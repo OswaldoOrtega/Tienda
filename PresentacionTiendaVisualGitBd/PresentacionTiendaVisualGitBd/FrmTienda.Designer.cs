@@ -32,10 +32,10 @@ namespace PresentacionTiendaVisualGitBd
             this.lblbusar = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.dtgTienda = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgTienda)).BeginInit();
             this.SuspendLayout();
@@ -55,6 +55,7 @@ namespace PresentacionTiendaVisualGitBd
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(508, 26);
             this.txtBuscar.TabIndex = 1;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // panel1
             // 
@@ -65,6 +66,26 @@ namespace PresentacionTiendaVisualGitBd
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(753, 69);
             this.panel1.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(705, 13);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(41, 35);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(323, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 31);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tienda";
             // 
             // btnAgregar
             // 
@@ -84,25 +105,8 @@ namespace PresentacionTiendaVisualGitBd
             this.dtgTienda.Name = "dtgTienda";
             this.dtgTienda.Size = new System.Drawing.Size(726, 230);
             this.dtgTienda.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(323, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tienda";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(705, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(41, 35);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
+            this.dtgTienda.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgTienda_CellClick);
+            this.dtgTienda.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgTienda_CellEnter);
             // 
             // FrmTienda
             // 

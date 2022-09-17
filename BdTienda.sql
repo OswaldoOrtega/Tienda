@@ -36,5 +36,5 @@ delimiter ;;
 CREATE PROCEDURE showtienda(
 IN _filtro VARCHAR(100))
 BEGIN 
-SELECT p.nombre,p.descripcion,p.precio FROM producto p WHERE p.nombre LIKE _filtro;
+SELECT p.idproducto,p.nombre,p.descripcion,p.precio FROM producto p WHERE p.nombre LIKE _filtro;
 END;;

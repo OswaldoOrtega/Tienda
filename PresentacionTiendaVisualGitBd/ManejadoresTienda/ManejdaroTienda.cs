@@ -7,6 +7,7 @@ using Crud;
 using AccesoDatos;
 using Entidades;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace ManejadoresTienda
 {
@@ -33,7 +34,12 @@ namespace ManejadoresTienda
 
         public void Mostrar(DataGridView tabla, string filtro)
         {
-            throw new NotImplementedException();
+            tabla.Columns.Clear();
+            tabla.RowTemplate.Height = 30;
+            tabla.DataSource = at.Mostrar(filtro).Tables["producto"];
+            tabla.Columns.Insert(4, g.Boton("Editar", Color.Blue));
+            tabla.Columns.Insert(5, g.Boton("Borrar", Color.Violet));
+            tabla.Columns[0].Visible = false;
         }
     }
 }

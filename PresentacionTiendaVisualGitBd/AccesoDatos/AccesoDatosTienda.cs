@@ -25,7 +25,8 @@ namespace AccesoDatos
 
         public DataSet Mostrar(string filtro)
         {
-            throw new NotImplementedException();
+            return b.Obtener
+                 (string.Format("call showtienda('%{0}%')", filtro), "producto");
         }
     }
 }
