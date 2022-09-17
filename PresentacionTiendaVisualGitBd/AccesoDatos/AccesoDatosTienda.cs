@@ -14,7 +14,7 @@ namespace AccesoDatos
 
         public void Borrar(dynamic Entidad)
         {
-            throw new NotImplementedException();
+            b.comando(string.Format("call deletetienda({0})",Entidad.Idproducto));
         }
 
         public void Guardar(dynamic Entidad)
@@ -25,7 +25,8 @@ namespace AccesoDatos
 
         public DataSet Mostrar(string filtro)
         {
-            throw new NotImplementedException();
+            return b.Obtener
+                 (string.Format("call showtienda('%{0}%')", filtro), "producto");
         }
     }
 }
