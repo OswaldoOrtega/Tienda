@@ -18,6 +18,12 @@ namespace PresentacionTiendaVisualGitBd
         {
             InitializeComponent();
             mt = new ManejdaroTienda();
+            if(FrmTienda.tien.Idproducto>0)
+            {
+                txtNombre.Text = FrmTienda.tien.Nombre;
+                txtDescripcion.Text = FrmTienda.tien.Descripcion;
+                txtPrecio.Text = FrmTienda.tien.Precio.ToString();
+            }
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
